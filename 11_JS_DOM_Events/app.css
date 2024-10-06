@@ -1,0 +1,15 @@
+div{
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+button{
+    font-size: 20px;
+    padding: 14px 25px;
+}
+img{
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}

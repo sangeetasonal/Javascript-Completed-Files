@@ -1,0 +1,21 @@
+div{
+    background-color: hotpink;
+    padding: 15px;
+    margin :15px;
+    text-align: center;
+}
+input[type="text"]{
+    font-size: 20px;
+    height: 30px;
+}
+input[type="number"]{
+    font-size: 20px;
+    height: 30px;
+}
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+span{
+    text-align: right;
+}

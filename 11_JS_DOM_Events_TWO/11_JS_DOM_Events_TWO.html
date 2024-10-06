@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Events</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Events TWO</a>
+</nav>
+
+<!-- Key up event -->
+<div>
+    <form>
+        <input type="text" id="text-box">
+        <h3 id="msg"></h3>
+    </form>
+</div>
+
+<!-- Change Event -->
+<div>
+    <form>
+        <select id="select-box">
+            <option value="">Select a Technology</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="JQuery">JQuery</option>
+            <option value="Bootstrap">Bootstrap</option>
+            <option value="React JS">React JS</option>
+        </select>
+        <span id="span-tag"></span>
+    </form>
+</div>
+
+<!-- change password -->
+<div>
+    <form>
+        <input type="password" id="password-box">
+        <input type="checkbox" id="check-box"> Show Password
+    </form>
+</div>
+
+<!-- Change Event on Range -->
+<div>
+    <form>
+        <input type="range" min="5000" max="500000" id="range">
+        <span id="range-val"></span>
+    </form>
+</div>
+
+<!-- Change Event on checkbox -->
+<div>
+    <form>
+        <input type="checkbox" id="copy-check"> Copy Address
+        <br><br>
+        <textarea id="current" placeholder="Current Address" rows="4" cols="40"></textarea>
+        <textarea id="permanent" placeholder="Permanent Address" rows="4" cols="40"></textarea>
+    </form>
+</div>
+
+<!-- Example 1 -->
+<div>
+    <h1 id="wish-msg">
+
+    </h1>
+</div>
+
+<!-- Example 2 -->
+<div id="wish-msg-div">
+
+</div>
+
+
+<script src="11_script.js"></script>
+</body>
+</html>

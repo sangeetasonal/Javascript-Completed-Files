@@ -1,0 +1,36 @@
+body{
+    margin: 40px;
+    font-family: 'Arial Unicode MS', sans-serif;
+    background: #eff0ef;
+}
+div{
+    margin: 15px;
+
+}
+form{
+background-color: #05ffa3;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+
+
+}
+input[type="range"]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid red;
+    color: #00b0ff;
+    margin-bottom: 10px;
+}
+span{
+    margin:70px 260px 0;
+    color:red ;
+    font-weight: bold;
+}
+#symbol{
+    color:red ;
+
+}
+
